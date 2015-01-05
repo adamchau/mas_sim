@@ -26,7 +26,7 @@ if __name__=="__main__":
     MAS1=mas_sys(agent_list,topology,di,pro_para=[c,K])
     t_bar=pb._start_progress()
     count=0
-    sim_times=100000
+    sim_times=10000
     T_intval=0.00005
     for N in range(sim_times):
         pb._set_progress(t_bar,count*100/sim_times)  
